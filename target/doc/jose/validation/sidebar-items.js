@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["validate_algorithm_for_jwe","validate_algorithm_for_jws","validate_base64url","validate_critical","validate_jwe_algorithm_params","validate_jwe_header","validate_jws_header","validate_key_id","validate_no_conflicts","validate_pbes2_count","validate_url","validate_x509_chain","validate_x509_thumbprint"]};
