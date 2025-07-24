@@ -1,0 +1,27 @@
+[package]
+name = "jose"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A Rust library for building JSON Web Signature (JWS) and JSON Web Encryption (JWE) headers"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/jose"
+keywords = ["jose", "jws", "jwe", "jwt", "crypto"]
+categories = ["cryptography", "web-programming"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+base64 = "0.22"
+url = { version = "2.4", optional = true }
+
+[dev-dependencies]
+tokio-test = "0.4"
+
+[features]
+default = []
+url-validation = ["url"]
+
+[[example]]
+name = "basic_usage"
+path = "examples/basic_usage.rs"

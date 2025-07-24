@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["jose",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.88.0/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"jose/builder/struct.JweHeaderBuilder.html\" title=\"struct jose::builder::JweHeaderBuilder\">JweHeaderBuilder</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.88.0/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"jose/builder/struct.JwsHeaderBuilder.html\" title=\"struct jose::builder::JwsHeaderBuilder\">JwsHeaderBuilder</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.88.0/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"jose/header/struct.JweHeader.html\" title=\"struct jose::header::JweHeader\">JweHeader</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.88.0/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"jose/header/struct.JwsHeader.html\" title=\"struct jose::header::JwsHeader\">JwsHeader</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.88.0/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"jose/header/struct.SharedHeader.html\" title=\"struct jose::header::SharedHeader\">SharedHeader</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[1440]}

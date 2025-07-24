@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["algorithm","builder","error","header","prelude","validation"]};
